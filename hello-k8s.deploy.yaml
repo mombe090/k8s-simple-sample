@@ -19,5 +19,5 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Cool user group session!
+          value: Mombe is learning flux in the ground
 
