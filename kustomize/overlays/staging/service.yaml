@@ -3,8 +3,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: nginx
-  name: nginx
+    app: nginx-over-kustomize
+  name: nginx-over-kustomize
   namespace: staging
 spec:
   type: NodePort
