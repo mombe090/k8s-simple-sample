@@ -9,5 +9,5 @@ patches:
 -  path: ./service.yaml  
 
 images:
-- name: nginx-over-kustomize
-  newTag: 1.17
+-  name: nginx-over-kustomize
+    newTag: "1.17"
