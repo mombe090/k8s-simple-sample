@@ -5,8 +5,8 @@ resources:
 -  ../../base
 
 patches:
--  deploy.yaml
--  service.yaml  
+-  path: ./deploy.yaml
+-  path: ./service.yaml  
 
 images:
 - name: nginx-over-kustomize
