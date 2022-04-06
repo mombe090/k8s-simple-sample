@@ -3,5 +3,11 @@ kind: Kustomization
 namespace: staging
 resources:
 -  ../../base
+
+patches:
 -  deploy.yaml
 -  service.yaml  
+
+images:
+- name: nginx-over-kustomize
+  newTag: 1.17

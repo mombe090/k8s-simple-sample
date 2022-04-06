@@ -19,7 +19,7 @@ spec:
         app: nginx-over-kustomize
     spec:
       containers:
-      - image: nginx-over-kustomize
+      - image: nginx
         name: nginx-over-kustomize
         ports:
         - containerPort: 80
