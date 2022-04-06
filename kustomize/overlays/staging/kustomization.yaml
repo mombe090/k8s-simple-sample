@@ -5,5 +5,5 @@ resources:
 -  ../../base
 
 patches:
--  path: ./deploy.yaml
--  path: ./service.yaml  
+-  path: ./replicat_count.yaml
+-  path: ./svc_type.yaml  
